@@ -21,10 +21,10 @@ import java.util.concurrent.ExecutionException;
  */
 public class NsApiParser implements NamedLocationProvider {
 
-    private static final String PROTOCOL = "http";
+    private static final String PROTOCOL = "https";
     private static final String HOST = "webservices.ns.nl";
     private static final String ENDPOINT = "/ns-api-stations-v2";
-    private static final String ENCODED_AUTH = "YXJuZWRpZWhsOTZAZ21haWwuY29tOlFBY25RR2VBNGowSlNHVENWUmp6NF9BVUpOWkVKX2RsSW1mbGkzZ3FYYi14WlE5eVVBNFl2UQ==";
+    private static final String ENCODED_AUTH = null; //TODO: not to hardcode in the application, for example loading from a configuration file instead.
 
     private final Collection<NamedLocation> stations;
 
